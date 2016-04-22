@@ -1,0 +1,93 @@
+body {
+	margin:0;
+	padding:0;
+	background:#000000;
+	text-align:center;
+	font-family: arial;
+	color: #ffffff;
+}
+
+img {
+	border: 0;
+}
+
+li {
+	list-style-type: none;	
+}
+
+#footer {
+	height: 36px;
+	background: url('../images/background-footer.png') repeat-x;
+	position: relative;
+}
+
+ul.social {
+	position: absolute;
+	right: 0;
+}
+
+ul.social li {
+	float: left;
+	margin-left: 3px;	
+}
+
+div.clear {
+	clear: both;	
+}
+
+fieldset {
+	padding: 60px 110px;
+}
+
+fieldset br {
+	clear: both;	
+}
+
+fieldset {
+	border: 0;	
+}
+
+label {
+	float: left;	
+	height: 30px;
+	padding-top: 4px;
+}
+
+label.error {
+	margin-left: 3px;
+	font-size: 11px;	
+}
+
+input[type=text], textarea, select {
+	border: 0;
+	background: #fc1f02;
+	height: 20px;
+	float: left;
+	color: #ffffff;
+	padding: 3px;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+select {
+	padding: 0px;
+	height: 25px;
+}
+
+textarea {
+	height: 180px;
+}
+
+input:focus {
+	outline:none;
+}
+
+div.double-line {
+	height: 7px;
+	margin: 2px 0;
+	background: url('../images/back-double-line.png') repeat-x;	
+}
+
+.submit {
+	cursor: pointer;
+}

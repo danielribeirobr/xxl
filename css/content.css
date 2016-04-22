@@ -1,0 +1,229 @@
+#wrapper {
+	width: 960px;
+	height: 541px;
+	margin:0 auto;
+	text-align:left;
+	margin-top: 10px;
+}
+
+div.stylebook-full-image {
+	text-align: center;
+}
+
+ul.st-items li {
+	width: 86px;
+	height: 42px;
+}
+
+#header {
+	position: relative;	
+}
+
+#header.home {
+	height: 108px;
+	background: url('../images/background-home-header.png') repeat-x;
+}
+
+#header.stylebook {
+	height: 138px;
+	background: url('../images/background-stylebook-header.png') repeat-x;
+}
+
+#header.blog {
+	height: 146px;
+	background: url('../images/background-blog-header.png') repeat-x;
+}
+
+#header.lifeclub {
+	height: 146px;
+	background: url('../images/background-lifeclub.png') repeat-x;
+}
+
+#header.contato {
+	height: 146px;
+	background: url('../images/background-contato.png') repeat-x;
+}
+
+#header.seja-revendedor {
+	height: 146px;
+	background: url('../images/background-seja-revendedor.png') repeat-x;
+}
+
+#header.onde-encontrar {
+	height: 146px;
+	background: url('../images/background-onde-encontrar.png') repeat-x;
+}
+
+#conteudo-onde-encontrar {
+	width: 900px;
+	height: 550px;
+	position: relative;	
+}
+
+#conteudo-onde-encontrar div.mapa-brasil, #julio_div {
+	position: absolute;
+	top: 20px;
+	left: 260px;
+}
+
+#conteudo-onde-encontrar li.dealers {
+	display: none;	
+}
+
+#conteudo-onde-encontrar #flag {
+	position: absolute;
+	bottom: 15px;
+	width: 241px;
+	height: 274px;
+	background: url('../images/flag-onde-encontrar2.png') no-repeat;
+	padding: 5px;
+}
+
+#conteudo-onde-encontrar div.dealers {
+	font-size: 12px;
+	overflow:auto;
+	height: 210px;
+	margin: 40px 10px 40px 5px;
+}
+
+#conteudo-onde-encontrar div.dealers ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#home-header div.logo{
+	margin: auto;
+	padding-top: 10px;
+}
+
+div.double-line-vertical {
+	height: 516px;
+	background: url('../images/back-double-line-vertical.png') repeat-y;
+	width: 7px;
+	margin-left: 5px;
+	float: left;
+}
+
+div#blog-image {
+	float: left;	
+}
+
+div#vlog-image {
+	float: right;	
+}
+
+#carrousel div.arrow {
+	top: 7px;
+	position: absolute;
+	width: 12px;		
+	height: 24px;
+	cursor: pointer;
+}
+
+#carrousel div.arrow.right {
+	right: -15px;
+	background: url('../images/arrow-right.png') no-repeat;		
+}
+
+#carrousel div.arrow.left {
+	left: -15px;
+	background: url('../images/arrow-left.png') no-repeat;	
+}
+
+#home-images ul {
+	margin: 0;
+	padding: 0;
+}
+
+#home-images ul li{
+	float: left;
+	width: 960px;
+	text-align: center;
+}
+
+/* Navigation menu */
+ul.navigation-menu {	
+	padding: 5px 0 0 0;
+	margin: 0;
+	background: url('../images/background-menu.png') repeat-x;
+	height: 36px;
+}
+
+ul.navigation-menu li {	
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+ul.navigation-menu li.stylebook {
+	margin-left: 56px;
+}
+
+ul.navigation-menu li.blog {
+	margin-left: 56px;
+}
+
+ul.navigation-menu li.lifeclub {
+	margin-left: 56px;
+}
+
+ul.navigation-menu li.contato {
+	margin-left: 48px;
+}
+
+ul.navigation-menu li.seja-revendedor {
+	margin-left: 58px;
+}
+
+ul.navigation-menu li.onde-encontrar {
+	margin-left: 52px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+fieldset.lifeclub div.fields {
+	float: left;
+	width: 460px;	
+}
+
+fieldset.lifeclub div.button {
+	float: left;
+}
+
+fieldset.lifeclub div.button .big-button {
+	font-size: 30px;
+	font-weight: bolder;
+	width: 250px;	
+	height: 345px;
+	background: #fc1f02;
+	color: #ffffff;
+	border: 0;
+}
+
+fieldset.contato .button, fieldset.seja-revendedor .button{
+	text-align: right;
+	margin: 25px 10px 0 0;
+}
+
+/* Pagina Seja Revendedor */
+fieldset.seja-revendedor {
+	margin-left: 10px;
+	width: 460px;	
+	float: left;
+	padding: 30px 0px;
+}
+
+fieldset.seja-revendedor div.header-fieldset {
+	margin-bottom: 40px;
+}
+
+fieldset.lifeclub label, fieldset.contato label {
+	height: 44px;
+	padding-top: 1px;	
+}
+
+fieldset.lifeclub input[type=text], fieldset.lifeclub select, fieldset.contato input[type=text], fieldset.contato select {
+	height: 30px;
+}
